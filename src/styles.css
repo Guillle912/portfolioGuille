@@ -1,1 +1,18 @@
 /* You can add global styles to this file, and also import other style files */
+
+@import url(https://fonts.googleapis.com/css?family=Taviraj:100,100italic,200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic);
+
+:root{
+  --color-main: #0e141b;
+  --color-neon: #ff5277;
+  --color-white: #ffffff;
+  --font-primary: 'Taviraj'
+}
+
+
+body{
+  background-color: var(--color-main);
+  font-family: var(--font-primary);
+}
+
+

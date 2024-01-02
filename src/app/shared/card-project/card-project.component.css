@@ -1,0 +1,36 @@
+.card-project{
+  min-height: 450px;
+  color: var(--color-white);
+  font-weight: 700;
+  overflow: hidden;
+  transition: all 1s;
+  background-color: var(--color-main);
+
+  &:hover{
+    transform: scale(1.1);
+  }
+}
+
+.card-project h5{
+  font-size: 25px;
+}
+
+.card-body{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+}
+
+.tecnologias{
+  display: flex;
+  ;
+}
+
+
+
+i{
+  color: var(--color-white);
+  font-size: 30px;
+
+}

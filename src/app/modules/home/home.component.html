@@ -1,0 +1,23 @@
+<section class="container">
+
+  <div class="hero">
+    <p [routerLink]="['/about']">HOLA, MI NOMBRE ES GUILLE  </p>
+    <h1>Creo aplicaciones web </h1>
+    <div>
+      <p>Soy un desarrollador Full-Stack, especializado en el stack MEAN</p>
+    </div>
+    <!-- <a href="http://www.linkedin.com/in/guillle912" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-linkedin"></i></a> -->
+  </div>
+
+  <div class="projects">
+    <h2>Proyectos</h2>
+    <div>
+      <app-card-project [project]="project" *ngFor="let project of arrProjects"></app-card-project>
+
+    </div>
+
+
+  </div>
+
+
+</section>
