@@ -9,6 +9,13 @@
   --font-primary: 'Taviraj'
 }
 
+.light-mode{
+  --color-main: #ffffff;
+  --color-white: #0e141b;
+  --color-neon: #ff5277;
+}
+
+
 
 body{
   background-color: var(--color-main);

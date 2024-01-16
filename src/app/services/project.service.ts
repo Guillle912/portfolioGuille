@@ -12,14 +12,14 @@ export class ProjectService {
       {
         title: 'SGAL Construciones',
         image: '../../assets/images/sgalimagen.png',
-        description: 'Intranet para una constructora que contiene un CRUD completo, donde puede dar de alta trabajadores, obras y tareas, asi como modificarlas y borrarlas.',
-        tecnologies: 'Angular, NodeJs, Express, TypeScript',
+        description: 'App de gestion para constructora, contiene un CRUD completo donde puedes dar de alta trabajadores, obras y tareas, asi como borrarlas y modificarlas .',
+        tecnologies: 'Angular, NodeJs, Express, TypeScript, MySQL',
         link: 'https://github.com/Guillle912/back_constructora'
       },
       {
         title: 'FofyConsolas',
         image: '../../assets/images/fofyconsolas.jpg',
-        description: 'Blog de videojuegos donde se pueden crear, modificar y borrar posts.',
+        description: 'Blog inspirado en una pagina de videojuegos donde se pueden crear, modificar y borrar posts. Realizado con Angular. ',
         tecnologies: 'Angular, TypeScript, Bootstrap',
         link: 'https://github.com/Guillle912/practica_fangular_blog_guille'
       },
@@ -33,7 +33,7 @@ export class ProjectService {
       {
         title: 'Gifs App',
         image: '../../assets/images/gifs.jpg',
-        description: 'App de busqueda de Gifs hecha con Angular, donde practique el consumo de API y hacer persistencia de busqueda.',
+        description: 'App de busqueda de Gifs hecha con Angular, donde practiqué el consumo de API y hacer persistencia de busqueda.',
         tecnologies: 'Angular, Bootstrap, TypeScript',
         link: 'https://github.com/Guillle912/GifsApp'
       },
@@ -54,7 +54,7 @@ export class ProjectService {
       {
         title: 'Paises App',
         image: '../../assets/images/PaisesApp.jpg',
-        description: 'App hecha con Angular, donde consumo una API con varios EndPoints y pongo en practica una barra de busqueda.',
+        description: 'App hecha con Angular, donde consumo una API con varios EndPoints y pongo en practica una barra de busqueda dinámica.',
         tecnologies: 'Angular, Bootstrap, TypeScript',
         link: 'https://github.com/Guillle912/CountrySPA'
       },
@@ -70,5 +70,12 @@ export class ProjectService {
 
   getAllProjects(){
     return this.arrProjects
+  }
+
+  modoOscuro = false;
+
+  toggleModo() {
+    this.modoOscuro = !this.modoOscuro;
+    document.body.classList.toggle('light-mode', this.modoOscuro)
   }
 }

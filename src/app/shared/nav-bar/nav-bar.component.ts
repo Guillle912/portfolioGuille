@@ -1,4 +1,5 @@
-import { Component } from '@angular/core';
+import { Component, inject } from '@angular/core';
+import { ProjectService } from 'src/app/services/project.service';
 
 @Component({
   selector: 'app-nav-bar',
@@ -6,5 +7,9 @@ import { Component } from '@angular/core';
   styleUrls: ['./nav-bar.component.css']
 })
 export class NavBarComponent {
+  projectService = inject(ProjectService);
 
+  toggleModo(){
+    this.projectService.toggleModo();
+  }
 }

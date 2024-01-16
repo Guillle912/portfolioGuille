@@ -7,7 +7,7 @@ import { HomeComponent } from './modules/home/home.component';
 import { NavBarComponent } from './shared/nav-bar/nav-bar.component';
 import { FooterComponent } from './shared/footer/footer.component';
 import { CardProjectComponent } from './shared/card-project/card-project.component';
-import { ContactComponent } from './modules/contact/contact.component';
+
 import { AboutComponent } from './modules/about/about.component';
 import { RouterLink } from '@angular/router';
 
@@ -18,7 +18,7 @@ import { RouterLink } from '@angular/router';
     NavBarComponent,
     FooterComponent,
     CardProjectComponent,
-    ContactComponent,
+
     AboutComponent
   ],
   imports: [
