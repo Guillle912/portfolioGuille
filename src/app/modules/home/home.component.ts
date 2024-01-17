@@ -19,7 +19,7 @@ export class HomeComponent {
   constructor(){
     this.arrProjects = this.projectService.getAllProjects();
 
-    const pdfPath = '../../../assets/cv_guillermoVidal-fullstack.pdf';
+    const pdfPath = 'assets/CV_guillermoVidal_fullstack.pdf';
     this.cvUrl = this.sanitizer.bypassSecurityTrustResourceUrl(pdfPath)
   }
 }
