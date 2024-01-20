@@ -24,7 +24,15 @@
 
 .tecnologias{
   display: flex;
-  ;
+  flex-wrap: wrap;
+}
+
+.tecnologias span{
+  font-size: 15px;
+  padding-right: 8px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-style: oblique;
+  color: var(--color-white);
 }
 
 

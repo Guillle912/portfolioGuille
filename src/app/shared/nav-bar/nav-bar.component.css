@@ -3,6 +3,9 @@ nav{
   padding-top: 40px;
 }
 
+#menuBurguer{
+  color: var(--color-white);
+}
 
 p{
   color: var(--color-white);
@@ -14,6 +17,8 @@ span{
 .active{
   color: var(--color-neon);
 }
+
+
 
 section{
   padding-top: 20px;

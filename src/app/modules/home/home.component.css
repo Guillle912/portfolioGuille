@@ -17,6 +17,11 @@ section{
 .hero p{
   color: var(--color-neon);
   font-weight: 700;
+
+}
+
+.hero .hola{
+  cursor: pointer;
 }
 
 .hero .CV {

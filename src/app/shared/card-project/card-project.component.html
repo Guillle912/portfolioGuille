@@ -7,7 +7,7 @@
     <p>{{project.description}}</p>
     <div class="tecnologias">
       <span  *ngFor="let tecnologie of project.tecnologies.split(',') | slice:0:3">
-        <span class="badge badge-light">{{tecnologie}}</span>
+        {{tecnologie}}
       </span>
 
     </div>
